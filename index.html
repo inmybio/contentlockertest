@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>0 Deals Completed.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      overflow: hidden;
+      background-image: var(--bg-image);
+      background-size: cover;
+      background-position: center;
+    }
+    .box {
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      width: 80%;
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 25px; /* Add rounded edges */
+      opacity: 0; /* Start invisible */
+      transform: scale(0.9); /* Start small */
+      animation: fadeInAndScale 1.5s ease forwards; /* Animation to fade in and scale */
+    }
+    .heading {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: 600; /* Updated font weight */
+    }
+    .subheading {
+      font-size: 18px;
+      white-space: pre-line;
+      text-align: left;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+      margin-bottom: 15px; /* Add spacing between rows */
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column; /* Align buttons vertically */
+      gap: 10px; /* Add spacing between buttons */
+    }
+    .button {
+      position: relative;
+      background-color: black;
+      color: white;
+      padding: 25px 130px; /* Adjusted padding for better text centering */
+      line-height: 18px;
+      border-radius: 25px; /* Add rounded edges */
+      cursor: pointer;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+    }
+    .button img {
+      width: 50px; /* Adjust image size as needed */
+      height: 50px;
+      border-radius: 25px; /* Equal rounded corners for a square shape */
+      margin-right: 15px; /* Adjusted margin-right */
+      position: absolute;
+      left: 20px; /* Position image to the left */
+    }
+
+    @keyframes fadeInAndScale {
+      0% {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body style="--bg-image: url('https://i.ibb.co/6bPTPmr/IMG-2529.jpg');">
+  <div class="box">
+    <div class="heading" style="font-weight: 600;">Must Complete Deal To Unlock Answer</div> <!-- Updated heading text -->
+    <div class="subheading">
+      Choose any deal below to reveal the answer!
+    </div>
+    <div class="button-container">
+      <a class="button" href="https://dwnldapp.com/73S1BI0MEV">
+        <img src="https://i.ibb.co/khkR7rj/IMG-2530.png" alt="Cashapp Image">
+        <span style="margin-left: var(--text-horizontal-padding, 15px);">$750 Cashapp</span>
+      </a>
+      <a class="button" href="https://dwnldapp.com/YQE7AW14PU">
+        <img src="https://i.ibb.co/db9rQpH/IMG-2531.jpg" alt="Amazon Image">
+        <span style="margin-left: var(--text-horizontal-padding, 15px);">$1,000 Amazon</span>
+      </a>
+      <a class="button" href="https://dwnldapp.com/6GEIQ2BLXM">
+        <img src="https://i.ibb.co/p3Vm4nw/IMG-2532.webp" alt="Shein Image">
+        <span style="margin-left: var(--text-horizontal-padding, 15px);">$750 Shein</span>
+      </a>
+    </div>
+  </div>
+</body>
+  <script type="text/javascript" src="https://optidownloader.com/script_include.php?id=1632533"></script>
+</html>
